@@ -2,19 +2,9 @@
  * Federal University of Minas Gerais 
  * Department of Computer Science
  * Simules-SPL Project
- *
- * Created by Michael David
- * Date: 16/07/2011
  */
 
 package br.ufmg.reuso.features;
-
-
-
-/**
- * @author 
- *
- */
 
 
 
