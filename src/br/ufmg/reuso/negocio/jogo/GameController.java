@@ -17,7 +17,7 @@ import br.ufmg.reuso.negocio.carta.CartaEngenheiro;
 import br.ufmg.reuso.negocio.carta.CartaPenalizacao;
 import br.ufmg.reuso.negocio.jogador.Jogador;
 import br.ufmg.reuso.negocio.tabuleiro.SetupInteraction;
-import br.ufmg.reuso.ui.ScreenInteraction;
+import br.ufmg.reuso.presentation.ScreenInteraction;
 
 /**
  * @author Michael David

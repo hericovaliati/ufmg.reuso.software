@@ -16,6 +16,7 @@ package br.ufmg.reuso.negocio.jogador;
  */
 
 import br.ufmg.reuso.negocio.carta.Carta;
+import java.awt.Color;
 import br.ufmg.reuso.negocio.carta.CartaEngenheiro;
 import br.ufmg.reuso.negocio.dado.Dado;
 import br.ufmg.reuso.negocio.jogo.Jogo;
@@ -28,15 +29,16 @@ public class Jogador
 	private int saldo;														//contém o saldo que o jogador tem para utilizar (limite é orcamento do projeto)
 	private Tabuleiro tabuleiro;
 	private boolean dadoJogado; 											//se true, jogador jogou dados, senão nao jogou
-	
+	private Color cor;
 	private Carta[] cartas = new Carta[NUMERO_MAX_CARTAS_MAO];				//conjunto de cartas na mao do jogador 
 	private int numeroCartasMaoAtual;										//numero real de cartas em mãos no decorrer do jogo
 	
 	
-	public Jogador (String nomeJogador, int orcamentoInicial)
+	public Jogador (String nomeJogador, int orcamentoInicial, Color cor)
 	{
 		setNome(nomeJogador);												// inserindo nome de jogadores
 		setSaldo(orcamentoInicial);											// inserindo saldo inicial do jogador que é igual orcamento do projeto
+		setCor(cor);
 		setNumeroCartasMaoAtual(0);												// numero de cartas na mão inicial é zero		
 		setDadoJogado(false);												//jogador ainda não jogou dados
 		for (int i=0; i<NUMERO_MAX_CARTAS_MAO; i++)
@@ -93,7 +95,7 @@ public class Jogador
 	public int analisarPontuacao()
 	{
 		int numberCards;
-		numberCards = Dado.contarPontos();
+		numberCards = Dado.getInstance().contarPontos();
 		Jogo.getJogo().setupController.mostrarPontosObtidosInicial(numberCards);				/**exibe a Gui mostrando pontos obtidos pelo jogador no lançamento de dados*/
 		
 		if ((getNumeroCartasMaoAtual() + numberCards) <= NUMERO_MAX_CARTAS_MAO)
@@ -179,6 +181,11 @@ public class Jogador
 	{
 		this.tabuleiro = tabuleiro;
 	}
+	
+	public Color getCor() 
+	{
+		return cor;
+	}
 
 	public int getNumeroCartasMaoAtual() 
 	{
@@ -198,6 +205,11 @@ public class Jogador
 	public void setNome(String nome) 
 	{
 		this.nome = nome;
+	}
+	
+	public void setCor(Color cor) 
+	{
+		this.cor = cor;
 	}
 	
 	public int getSaldo() 

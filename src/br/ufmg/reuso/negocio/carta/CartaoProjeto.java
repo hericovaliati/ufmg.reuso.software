@@ -22,7 +22,7 @@ import java.util.Random;
 import br.ufmg.reuso.dados.carta.RepositorioCartaoProjeto;
 import br.ufmg.reuso.negocio.jogo.Jogo;
 import br.ufmg.reuso.negocio.mesa.Modulo;
-import br.ufmg.reuso.ui.ScreenControl;
+import br.ufmg.reuso.presentation.ScreenControl;
 
 public class CartaoProjeto 
 {

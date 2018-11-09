@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="br.ufmg.reuso.negocio.tabuleiro.SetupInteraction" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/tabuleiro/SetupInteraction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="301" x="2556" y="-1354"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="br.ufmg.reuso.View.ScreenModo" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenModo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="37" y="-1652"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.ufmg.reuso.negocio.mesa.Mesa" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/mesa/Mesa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="289" x="780" y="166"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="br.ufmg.reuso.negocio.carta.CartaPenalizacao" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaPenalizacao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="3045" y="-25"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="br.ufmg.reuso.View.ScreenChooseArtefacts" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenChooseArtefacts.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="323" x="111" y="-842"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="br.ufmg.reuso.negocio.baralho.BaralhoArtefatosBons" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/BaralhoArtefatosBons.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="313" x="1789" y="-1006"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="br.ufmg.reuso.negocio.carta.CardsConstants" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CardsConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="709" y="-1473"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="br.ufmg.reuso.negocio.carta.Carta" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/Carta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="3400" y="-9"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="br.ufmg.reuso.dados.carta.IRepositorioCarta" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/carta/IRepositorioCarta.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="285" x="2516" y="-307"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="br.ufmg.reuso.negocio.carta.CartaAbertaSemBug" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaAbertaSemBug.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="69" width="349" x="609" y="781"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="br.ufmg.reuso.View.ScreenStart" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenStart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="591" y="-1657"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.ufmg.reuso.negocio.baralho.factory.CreatorBaralhoArtefatos" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/factory/CreatorBaralhoArtefatos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="95" width="235" x="196" y="-1705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="br.ufmg.reuso.dados.carta.RepositorioCartaoProjeto" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/carta/RepositorioCartaoProjeto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="330" x="1749" y="-280"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="br.ufmg.reuso.negocio.carta.Artefato" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/Artefato.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="769" y="385"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="br.ufmg.reuso.View.ScreenControl" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="804" y="-1658"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="br.ufmg.reuso.View.ScreenGamers" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenGamers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="976" y="-1655"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="br.ufmg.reuso.dados.RepositorioArquivo" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/RepositorioArquivo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="295" x="2183" y="-395"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="br.ufmg.reuso.View.ScreenResultDice" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenResultDice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1456" y="-1638"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="br.ufmg.reuso.View.ComponentCard" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ComponentCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="278" x="3353" y="469"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="br.ufmg.reuso.dados.IRepositorioArquivo" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/IRepositorioArquivo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="298" x="2089" y="-570"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="21" language="java" name="br.ufmg.reuso.negocio.carta.CartaEngenheiro" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaEngenheiro.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="2150" y="754"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="br.ufmg.reuso.View.ScreenTabuleiro" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenTabuleiro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="278" x="3126" y="-1505"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="br.ufmg.reuso.View.ScreenChangePlayer" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenChangePlayer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="306" x="3094" y="-463"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="br.ufmg.reuso.negocio.jogo.Jogo" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/negocio/jogo/Jogo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="283" x="2204" y="-1234"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="br.ufmg.reuso.negocio.carta.CartaProgramador" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaProgramador.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="292" x="2982" y="93"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="br.ufmg.reuso.negocio.carta.EstadoCarta" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/EstadoCarta.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="69" width="332" x="746" y="517"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="br.ufmg.reuso.View.ScreenIntegrateModule" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenIntegrateModule.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="317" x="472" y="-572"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="br.ufmg.reuso.negocio.baralho.BaralhoCartas" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/BaralhoCartas.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="296" x="2674" y="-624"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="br.ufmg.reuso.View.ScreenInspectArtefacts" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenInspectArtefacts.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="321" x="113" y="-965"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="br.ufmg.reuso.View.ScreenProject" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenProject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="266" x="1083" y="-1168"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="br.ufmg.reuso.negocio.jogo.GameController" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/negocio/jogo/GameController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1156" y="-1637"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="br.ufmg.reuso.View.ScreenChooseGamer" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenChooseGamer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1719" y="-1645"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="br.ufmg.reuso.View.ScreenLaunchDice" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenLaunchDice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1946" y="-1637"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="br.ufmg.reuso.View.ScreenOrderGamers" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenOrderGamers.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2174" y="-1646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="br.ufmg.reuso.View.ScreenIntegrateModule.myPanel" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenIntegrateModule.java" binary="false" 
+    corner="BOTTOM_LEFT">    
+    <position height="49" width="251" x="184" y="-427"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="36" language="java" name="br.ufmg.reuso.negocio.jogo.GameInteraction" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/negocio/jogo/GameInteraction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1168" y="-1512"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="37" language="java" name="br.ufmg.reuso.View.ScreenSelectCards" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenSelectCards.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2371" y="-1656"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="br.ufmg.reuso.negocio.jogador.Jogador" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/jogador/Jogador.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="296" x="3197" y="-746"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="br.ufmg.reuso.negocio.carta.CartaBonificacao" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaBonificacao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="3200" y="296"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="br.ufmg.reuso.negocio.mesa.Modulo" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/mesa/Modulo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="289" x="510" y="-911"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="41" language="java" name="br.ufmg.reuso.negocio.baralho.factory.AbstractCreatorBaralhoArtefatos" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/factory/AbstractCreatorBaralhoArtefatos.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="303" y="-1418"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="42" language="java" name="br.ufmg.reuso.negocio.carta.CartaAberta" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaAberta.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="779" y="646"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="br.ufmg.reuso.negocio.carta.CartaAbertaComBug" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaAbertaComBug.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="69" width="350" x="1008" y="782"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="br.ufmg.reuso.negocio.tabuleiro.Tabuleiro" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/tabuleiro/Tabuleiro.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="301" x="2305" y="67"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="br.ufmg.reuso.Principal" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2561" y="-1650"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="br.ufmg.reuso.View.ScreenGenericChoose" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenGenericChoose.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2749" y="-1637"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="br.ufmg.reuso.negocio.carta.CartaoProjeto" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaoProjeto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="1066" y="-1049"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="br.ufmg.reuso.negocio.carta.CartaFechada" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/carta/CartaFechada.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="287" x="1273" y="508"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="br.ufmg.reuso.negocio.baralho.BaralhoArtefatos" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/BaralhoArtefatos.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="296" x="1816" y="-706"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="br.ufmg.reuso.View.ScreenCard" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="49" width="253" x="3283" y="639"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="br.ufmg.reuso.negocio.jogo.ModeGameConstants" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/negocio/jogo/ModeGameConstants.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3020" y="-1617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="br.ufmg.reuso.dados.carta.RepositorioCarta" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/carta/RepositorioCarta.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="282" x="2452" y="-506"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="br.ufmg.reuso.View.ScreenCreateProject" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenCreateProject.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3210" y="-1634"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="br.ufmg.reuso.View.ScreenInteraction" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/View/br/ufmg/reuso/View/ScreenInteraction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3049" y="-1250"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="br.ufmg.reuso.dados.carta.IRepositorioCartaoProjeto" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/dados/carta/IRepositorioCartaoProjeto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="333" x="1597" y="-55"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="56" language="java" name="br.ufmg.reuso.negocio.baralho.BaralhoArtefatosRuins" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/baralho/BaralhoArtefatosRuins.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="316" x="2194" y="-963"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="br.ufmg.reuso.negocio.dado.Dado" project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Model/br/ufmg/reuso/negocio/dado/Dado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3409" y="-1655"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="58" language="java" name="br.ufmg.reuso.negocio.jogo.Jogo.Status" 
+    project="ufmg.reuso.software-master" 
+    file="/ufmg.reuso.software-master/Controller/br/ufmg/reuso/negocio/jogo/Jogo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="49" width="283" x="1697" y="-1308"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </enumeration>  
+  <realization id="59">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <association id="60">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="61" name="baralho"/>      
+      <multiplicity id="62" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="64" name="projeto"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="67" name="repositorio"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="70" name="requisitos"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="73" name="jogadores"/>      
+      <multiplicity id="74" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="76">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="77" name="jogoAtual"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="79">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="49"/>  
+  </generalization>  
+  <association id="80">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="81" name="estado"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="84" name="listaArtefatos"/>      
+      <multiplicity id="85" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="87">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="88" name="baralhoArtefatosRuins"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="91" name="setupController"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="94" name="instance"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="97" name="repositorio"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="100" name="board"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="102">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <association id="103">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="104" name="componentCard"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="107" name="jogo"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="110" name="baralhoCartas"/>      
+      <multiplicity id="111" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="113" name="oponent"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="115">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="116">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="117" name="jogador"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="120" name="tabuleiro"/>      
+      <multiplicity id="121" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="122">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="123" name="modulo"/>      
+      <multiplicity id="124" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="125">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="35"/>  
+  </nesting>  
+  <association id="126">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="127" name="projeto"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="130" name="modulos"/>      
+      <multiplicity id="131" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="133" name="jogador"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="135">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="136">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="41"/>  
+  </realization>  
+  <association id="137">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="138" name="cartas"/>      
+      <multiplicity id="139" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="140">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="141" name="cartaMesa"/>      
+      <multiplicity id="142" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="143">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="144" name="baralhoArtefatosBons"/>      
+      <multiplicity id="145" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="147" name="cartaAtiva"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="149">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="150" name="tabuleiro"/>      
+      <multiplicity id="151" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="152">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="153" name="modulo"/>      
+      <multiplicity id="154" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="155">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="156" name="mesas"/>      
+      <multiplicity id="157" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="158">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="159" name="INSTANCE"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="57" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="161">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <association id="162">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="163" name="ajudas"/>      
+      <multiplicity id="164" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="165">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="166" name="jogadorAtual"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="168">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <association id="169">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="170" name="desenhos"/>      
+      <multiplicity id="171" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="172">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="173">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="174" name="GameController"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="177" name="card"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="179">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="180">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="49"/>  
+  </generalization>  
+  <association id="181">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="182" name="projeto"/>      
+      <multiplicity id="183" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="184">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="185">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <generalization id="186">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="187">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="188" name="rastros"/>      
+      <multiplicity id="189" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="190">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="191" name="jogo"/>      
+      <multiplicity id="192" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="193">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="194">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="195" name="moduloIntegrado"/>      
+      <multiplicity id="196" minimum="0" maximum="2147483647">        
+        <position height="14" width="21" x="742" y="1422"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="197">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="198" name="codigos"/>      
+      <multiplicity id="199" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="200">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="201" name="board"/>      
+      <multiplicity id="202" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="203">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="204">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="205" name="gameStatus"/>      
+      <multiplicity id="206" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="58" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

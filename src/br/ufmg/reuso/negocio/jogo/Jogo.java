@@ -8,7 +8,7 @@
  */
 
 package br.ufmg.reuso.negocio.jogo;
-
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -28,11 +28,13 @@ import br.ufmg.reuso.negocio.carta.CartaPenalizacao;
 import br.ufmg.reuso.negocio.carta.CartaoProjeto;
 import br.ufmg.reuso.negocio.dado.Dado;
 import br.ufmg.reuso.negocio.jogador.Jogador;
+import br.ufmg.reuso.negocio.jogadorIterador.JogadorIterador;
 import br.ufmg.reuso.negocio.mesa.Mesa;
 import br.ufmg.reuso.negocio.mesa.Modulo;
 import br.ufmg.reuso.negocio.tabuleiro.SetupInteraction;
 import br.ufmg.reuso.negocio.tabuleiro.Tabuleiro;
-import br.ufmg.reuso.ui.ScreenInteraction;
+import br.ufmg.reuso.presentation.ScreenInteraction;
+//import org.eclipse.persistence.jaxb.JAXBMarshaller;
 /**
  * @author Michael David
  *
@@ -41,6 +43,9 @@ import br.ufmg.reuso.ui.ScreenInteraction;
 public final class Jogo {
 
 	private static Jogo jogo;
+	
+	
+	public Color cores[]; 
 
 	public static enum Status {
 		CONTINUE, WINNER_END
@@ -67,7 +72,9 @@ public final class Jogo {
 	private BaralhoArtefatosRuins[] baralhoArtefatosRuins;
 	public SetupInteraction setupController = ScreenInteraction.getScreenInteraction();
 
-	private Jogo() {
+	public Jogo() {
+		cores = new Color[6];
+		
 	}
 
 	public Jogador[] getJogadores() {
@@ -189,6 +196,7 @@ public final class Jogo {
 													// jogo for continuar, esse
 													// metodo e executado*//*
 		{
+			
 			setupController.exibirDefault(jogoAtual, getJogadores()[jogador]); // **Exibe
 																				// GUI
 																				// default
@@ -258,15 +266,17 @@ public final class Jogo {
 														// jogadores
 
 		int i = 0; // i e uma variavel auxiliar
+
 		while (i < jogadores.length) {
 			String nomeJogador;
 			nomeJogador = nomeJogadores[i]; // passando nome de jogadores para a
 											// variavel local
 			// construindo o jogador com parâmetros inicias iguais ao projeto
-			jogadores[i] = new Jogador(nomeJogador, projeto.getOrcamento());
+			jogadores[i] = new Jogador(nomeJogador, projeto.getOrcamento(), cores[i]);
 			inserirEngenheiroInicial(jogadores[i]);
 			i++;
 		}
+
 	}
 
 	public void inserirEngenheiroInicial(Jogador jogador) {
@@ -329,13 +339,14 @@ public final class Jogo {
 			pontuacaoJogador[i] = 0; // inicializando vetor com pontuacao de
 										// jogadores
 		}
-		for (int i = 0; i < jogadores.length; i++) {
+		JogadorIterador<Jogador> jogaroesIterador = new JogadorIterador<Jogador>(jogadores);
+		int i = 0;
+		for(Jogador jogadorI : jogaroesIterador) {
 			// passando o nome do jogador i para que a GUI exiba o nome dele
 			// pedindo rolagem de dados,serve para dar interatividade com
 			// usuario
-			setupController.pedirRolarDadosInicial(jogadores[i].getNome());
-
-			pontuacaoJogador[i] = Dado.sortearValor(); // jogando dados e
+			setupController.pedirRolarDadosInicial(jogadorI.getNome());
+			pontuacaoJogador[i] = Dado.getInstance().sortearValorSemRepeticao(); // jogando dados e
 														// guardando os pontos
 														// do jogadores
 
@@ -358,7 +369,7 @@ public final class Jogo {
 				// passando o nome do jogador i para que a GUI exiba o nome dele
 				// pedindo nova rolagem de dados devido e empate.
 				setupController.mostrarEmpatePontosObtidosInicial(jogadores[i].getNome());
-				pontuacaoJogador[i] = Dado.sortearValor(); // tenta desempatar a
+				pontuacaoJogador[i] = Dado.getInstance().sortearValorSemRepeticao(); // tenta desempatar a
 															// pontuacao obtida
 			}
 
@@ -367,7 +378,7 @@ public final class Jogo {
 			setupController.mostrarPontosObtidosInicial(pontuacaoJogador[i]); // mostra
 																				// pontos
 																				// obtidos
-																				// pelo
+			i++;																	// pelo
 																				// jogador
 		}
 
@@ -375,13 +386,13 @@ public final class Jogo {
 		int max = 0;
 		int posicao = 0;
 		for (int j = 0; j < jogadores.length; j++) {
-			for (int i = j; i < jogadores.length; i++) {
-				if (pontuacaoJogador[i] > max) // caso a pontuacao no vetor de
+			for (int c = j; c < jogadores.length; c++) {
+				if (pontuacaoJogador[c] > max) // caso a pontuacao no vetor de
 												// pontos seja maior que max ha
 												// atualizacao
 				{
-					posicao = i;
-					max = pontuacaoJogador[i];
+					posicao = c;
+					max = pontuacaoJogador[c];
 				}
 			}
 			max = 0;
